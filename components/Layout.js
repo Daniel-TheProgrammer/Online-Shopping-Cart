@@ -1,23 +1,22 @@
-import React, { Children } from 'react';
+import React from 'react';
 import Head from 'next/head';
-import { AppBar, Container, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Toolbar, Typography, Container } from '@material-ui/core';
 
-export default function Layout({Children}) {
+export default function Layout({ children }) {
   return (
     <div>
-        //Header Section
-        <Head>
-            <title>Online Shopping Cart</title>
-        </Head>
-        <AppBar position="static">
-            <Toolbar>
-                <Typography>Online Shopping Cart</Typography>
-            </Toolbar>
-        </AppBar>
-        //Main Section
-        <Container>
-            {Children}
-        </Container>
+      <Head>
+        <title>Online Shopping Cart</title>
+      </Head>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography>Online Shopping Cart</Typography>
+        </Toolbar>
+      </AppBar>
+      <Container>{children}</Container>
+      <footer>
+        <Typography>All rights reserved. Online Shopping Cart.</Typography>
+      </footer>
     </div>
-  )
+  );
 }
