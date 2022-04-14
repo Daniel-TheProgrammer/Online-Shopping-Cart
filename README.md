@@ -8,7 +8,6 @@
 ## To Run it Locally on your machine
 ```
 $ git clone https://github.com/Daniel-TheProgrammer/HCI
-$ cd online-shopping-cart
 $ npm install
 $ npm run dev
 ```
