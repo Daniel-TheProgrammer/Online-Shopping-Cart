@@ -1,5 +1,5 @@
 {
-  "name": "online-shopping-cart",
+  "name": "next-amazona",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "@material-ui/core": "^4.11.4",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5"
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.1"
   }
 }
